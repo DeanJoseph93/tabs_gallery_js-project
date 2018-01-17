@@ -1,0 +1,417 @@
+/* -----------------------------
+    Css Reset
+-------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0b2 | 201101 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+img{vertical-align: top;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section, canvas, main, video { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+body {
+   background-color: #cccccc;
+   font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.clearFix {
+    clear: both;
+}
+
+
+/*-------------------------------
+Header Section
+-------------------------------*/
+
+.headSection {
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    position: fixed;
+}
+
+.headFlex {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.leftLogo {
+    width: 350px;
+    color: #ffffff;
+    margin-top: 13px;
+}
+
+
+.leftLogo h2 {
+    font-size: 29px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.leftLogo h3 {
+    padding-top: 6px;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*-------------------------------
+NAV Section
+-------------------------------*/
+
+
+#mainNav  {
+    display: block;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+#mainNav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px 5px 60px;
+
+}
+
+.mini  {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 15px;
+}
+
+
+.mini:hover {
+    border-top: 2px solid #ffffff;
+    padding-top: 3px;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 3px;
+}
+
+
+
+/*-------------------------------
+General Section
+-------------------------------*/
+
+.banner {
+    width: 100%;
+}
+
+
+#earthImg {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+
+
+/*-------------------------------
+main Section
+-------------------------------*/
+
+.mainSectionTop {
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+
+
+.mainBar {
+    height: 66px;
+}
+
+
+.leftMainBar {
+    width: 420px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.leftMainBar h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.leftMainBar h3 {
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+/*-------------------------------
+SEARCH - Section
+-------------------------------*/
+
+.search {
+    width: 458px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.search_entry input, textarea {
+    background-color: #FFFFFF;
+    color: #333;
+    padding: 12px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 14px;
+    width: 435px;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.search_entry {
+    width: 458px;
+}
+
+
+
+
+
+/*-------------------------------
+Main - LEFT Section
+-------------------------------*/
+
+.mainSection {
+    /*width: 960px;*/
+}
+
+
+.mainLeft {
+    margin-top: 0;
+    float: left;
+    width: 270px;
+}
+
+#leftSideBar {
+    width: 270px;
+    float: left;
+    height: 850px;
+    background-color: black;
+}
+
+
+#leftNav {
+    list-style-type: none;
+    width: 270px;
+}
+
+.left {
+    text-align: left;
+    display: block;
+    color: #ffffff;
+    padding: 25px 60px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#leftNav li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+
+.left:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+/*-------------------------------
+mainRight Section
+-------------------------------*/
+
+.mainRight {
+    margin-top: 15px;
+    width: 600px;
+    float: right;
+}
+
+
+.mainText {
+    color: black;
+}
+
+.mainText h2 {
+    text-align: left;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.mainText p {
+    text-align: left;
+    font-size: 15px;
+    padding-top: 20px;
+    line-height: 12px;
+}
+
+
+
+/*-------------------------------
+Gallery Section
+-------------------------------*/
+
+.gallery {
+    margin-top: 20px;
+}
+
+#imgSpace {
+    width: 455px;
+    height: 290px;
+}
+
+.buttons {
+    margin-left: 180px;
+}
+
+
+
+
+
+/*-------------------------------
+CAROUSEL Section
+-------------------------------*/
+
+
+
+/*-------------------------------
+PROJECT 2 PAGE Section
+-------------------------------*/
+
+#minNav {
+    margin-top: 30px;
+    width: 600px;
+    display: block;
+    background-color: black;
+}
+
+
+#minNav .navBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.main {
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 4px 42px;
+    text-transform: uppercase;
+
+}
+
+.main:hover{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.mainBox {
+    position: relative;
+    border: 1px solid black;
+    width: 598px;
+    background-color: black;
+}
+
+.mainHead h2{
+    text-align: center;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-bottom: 6px;
+    padding-top: 25px;
+}
+
+.mainPar {
+    margin-left: 19px;
+    width: 578px;
+}
+
+
+.mainPar p {
+    font-size: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 26px 79px;
+    line-height: 1.1;
+    letter-spacing: .5px;
+    word-spacing: 1.1px;
+}
+
+
+#paraMainWhy {
+    display: none;
+}
+
+#paraMainWhy p {
+    color: #FFFFFF;
+}
+
+
+#paraMainWho{
+    display: none;
+}
+
+#paraMainWho p {
+    color: #FFFFFF;
+}
+
+
+
+
+/*-------------------------------
+Gallery Section
+-------------------------------*/
+
+
+
+/*-------------------------------
+Gallery Section
+-------------------------------*/
+
+
